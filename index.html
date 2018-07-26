@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1 id="title">Blackjack</h1>
+    <h4>by Yaboy</h4>
+    <div class="controls-area">
+      <p id="header-text-area">Welcome to Blackjack!</p>
+      <div class="left">
+        <p id="dealer-text-area"></p>
+      </div>
+      <div class="right">
+        <p id="player-text-area"></p>
+      </div>
+      <div class="full-screen">
+        <p id="result-text-area"></p>
+        <p id="new-game-area" class="full-screen">
+          <button id="new-game-button">New Game!</button>
+        </p>
+      </div>
+    </div>
+
+    <div class="full-screen">
+      <p id="player-text-area" class="left"></p>
+      <p id="player-text-area" class="right">
+        <button id="hit-button">Hit!</button>
+        <button id="stay-button">Stay</button>
+      </p>
+    </div>
+
+    <script src="card.js"></script>
+    <script src="deck.js"></script>
+    <script src="hand.js"></script>
+    <script src="game.js"></script>
+    <script src="blackjack-ui.js"></script>
+
+    <script>
+      const blackjack = new BlackJackUI();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+/* Styles go here */
+
+body {
+  background: DarkGreen;
+  color: White;
+  font: 15px Arial;
+  text-align: center;
+}
+
+.left {
+  float:left;
+  width: 50%;
+}
+
+.right {
+  float:right;
+  width: 50%;
+}
+
+.full-screen {
+  clear:both;
+  width:100%;
+}
